@@ -1,21 +1,26 @@
 import { bootstrap } from "angular2/platform/browser";
 import { Component } from "angular2/core";
 import { ProductService } from "./services/product.service";
+import { Product } from "./services/models/product";
 
 @Component({
   selector: 'inventory-app',
   template: `
   <div class="inventory-app">
-    <h1>{{ product.name }}</h1>
-    <span>{{ product.sku }}</span>
+    <h1>{{ products[0].name }}</h1>
+    <span>{{ products[0].sku }}</span>
   </div>
   `
 })
 class InventoryApp {
-  product: ProductService;
+  products: Product[];
 
   constructor(private p: ProductService) {
-    this.product = p;
+    this.products = p.products;
+  }
+
+  productWasSelected(product: Product): void {
+    console.log('Product clicked: ', product);
   }
 }
 
