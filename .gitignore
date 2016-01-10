@@ -1,8 +1,8 @@
 node_modules
-app.js
-app.js.map
 npm-debug.log
 app/services/models/product.js
 app/services/models/product.js.map
 app/services/product.service.js
 app/services/product.service.js.map
+app/app.js
+app/app.js.map
