@@ -2,7 +2,7 @@ node_modules
 app.js
 app.js.map
 npm-debug.log
-/services/models/product.js
-/services/models/product.js.map
-/services/product.service.js
-/services/product.service.js.map
+app/services/models/product.js
+app/services/models/product.js.map
+app/services/product.service.js
+app/services/product.service.js.map
