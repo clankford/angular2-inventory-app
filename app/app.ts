@@ -1,7 +1,7 @@
 import { bootstrap } from "angular2/platform/browser";
 import { Component } from "angular2/core";
 import { ProductService } from "./services/product.service";
-import { Product } from "./services/models/product";
+import { Product } from "./models/product";
 
 @Component({
   selector: 'inventory-app',
