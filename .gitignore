@@ -6,5 +6,7 @@ app/services/product.service.js
 app/services/product.service.js.map
 app/components/inventory.js
 app/components/inventory.js.map
+app/components/product-list.js
+app/components/product-list.js.map
 app/app.js
 app/app.js.map
