@@ -10,5 +10,11 @@ app/components/product-list.js
 app/components/product-list.js.map
 app/components/product-row.js
 app/components/product-row.js.map
+app/components/product-image.js
+app/components/product-image.js.map
+app/components/price-display.js
+app/components/price-display.js.map
+app/components/product-department.js
+app/components/product-department.js.map
 app/app.js
 app/app.js.map
