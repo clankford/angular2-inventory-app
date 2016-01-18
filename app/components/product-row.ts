@@ -4,6 +4,10 @@ import { ProductImage } from './product-image';
 import { PriceDisplay } from './price-display';
 import { ProductDepartment } from './product-department';
 
+/*
+ * Defines component for the individual product row. Takes an individual product
+ * object, sets it's own CSS class via the host attribute.
+ */
 @Component({
   selector: 'product-row',
   inputs: ['product'],

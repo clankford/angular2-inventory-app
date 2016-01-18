@@ -1,6 +1,7 @@
 import { Component } from 'angular2/core';
 import { Product } from '../models/product';
 
+// Defines the product department component.
 @Component({
   selector: 'product-department',
   inputs: ['product'],

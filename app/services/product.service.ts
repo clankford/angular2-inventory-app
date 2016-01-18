@@ -1,5 +1,10 @@
 import { Product } from "../models/product";
 
+/**
+ * Injected service to provide product data.
+ * New mock products can be added here or this can be replaced with API calls
+ * to populate products from the server.
+ */
 export class ProductService {
   products: Product[];
 

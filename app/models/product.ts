@@ -1,3 +1,5 @@
+// Object defintiion for a product. Keeping all object models sepearte will
+// the application easier to maintain and follow.
 export class Product {
   sku: string;
   name: string;
