@@ -27,7 +27,7 @@ export class InventoryApp {
   /**
    * Event handler; handles output from the ProductList. Invokes this function
    * when the onProductSelected event is observed from the product-list element.
-  */
+   */
   productWasSelected(product: Product): void {
     console.log('Product clicked: ', product);
   }
